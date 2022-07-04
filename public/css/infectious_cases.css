@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Source+Sans+Pro:ital,wght@0,600;1,300&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	
+	font-family: 'Source Sans Pro', sans-serif;
+   background-color:#eeeeee;
+}
+.card-1-1
+{
+	text-decoration: none;
+	color: black;
+	font-size: 16px;
+}
+h2
+{
+	text-align: center;
+}
+
+.nav-container
+{
+	display: flex;
+	padding: 1rem 3%;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+	background: #283593;
+	color: #FFF;
+
+}
+.nav-container img
+{
+	max-height: 95px;
+	padding: 5px;
+}
+	
+.nav-container ul
+{
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.nav li
+{
+	padding-right: 2.5rem;
+	font-size: 20px;
+}
+.btn
+{
+	text-decoration: none;
+	color: #FFF;
+	font-size: 20px;
+}
+
+.container{
+	padding: 35px 45px;
+}
+
+.container .text-1
+{
+	text-align: center;
+}
+
+.inner-container
+{
+	margin: 0 autp;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	padding: 20px;
+	gap: 20px;
+
+}
+
+
+.card-1-1
+{
+	background: #283593;
+	color: #FFF;
+	padding: 45px;	
+	border-radius: 5px;	
+
+}
+.card-1-1:hover
+{
+	background-color:#42a5f5;
+
+}
+
+@media(max-width: 768px)
+{
+	.nav-container
+	{
+		flex-direction: column;
+		justify-content: center;
+	}
+	.nav{
+		margin-bottom: 10px;
+	}
+	.nav-container .text-logo
+	{
+		font-size:1.8rem;
+		padding-bottom: 15px;
+	}
+}
+
