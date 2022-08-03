@@ -1,0 +1,85 @@
+*
+{
+    font-family: "Helvetica Neue", Helvetica, Arial , sans-serif;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+html
+ {
+    font-size: 62.5%;
+ }
+
+ .navbar .navbar-header-logo .navbar-brand
+ {
+    padding: 2rem 1.5rem;
+ }
+.navbar .navbar-header-logo .navbar-brand img
+ {
+    width: 7rem;
+    
+    
+ }
+ .navbar .navbar-header-logo .brand-text
+ {
+    color: #fff;
+    font-size: 1.9rem;
+ }
+ .navbar .dropdown-container
+ {
+    margin-right: 9.5rem;
+ }
+.container
+{
+
+    margin: 5rem 4rem;
+}
+.page-header
+{
+   margin-top: 3rem;
+}
+.container-fluid #alert
+{
+   text-align: center;
+}
+#card-container
+{
+   margin: 0 1.5rem;
+}
+
+#card-container a
+{
+    text-decoration: none;
+    color: #333;
+}
+#card-container .card:hover{
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+}
+.alert-no
+{
+   font-size: 1.9rem;
+}
+
+@media (max-width:768px)
+{
+   .navbar
+   {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+   }
+   .navbar .dropdown-container
+   {
+       margin-left: -10rem;
+   }
+}
+ @media (max-width:768px)
+ {
+    .navbar .navbar-header-logo .navbar-brand
+    {
+       padding: .9rem 1.1rem;
+    }
+ }
