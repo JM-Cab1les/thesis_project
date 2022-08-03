@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*
+{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+html
+{
+    font-size: 62.5%;
+}
+.header-top
+{
+    
+    background: #333;
+    color:#fff
+    
+}
+
+.header-top .logo
+{
+    display: flex;
+    align-items: center;
+    padding: 5px 3px;
+    margin-left: 5rem;
+}
+.header-top .logo h1
+{
+    margin-left: 4rem;
+    font-size: 2.5rem;
+}
+.header-top .logo img
+{
+    width: 8rem;
+}
+
+
+body
+{
+    background: #fff;
+
+}
+
+.login-panel
+{
+    margin-top: 7rem;
+    
+   
+}
+.login-panel .message
+{
+    display: none;
+}
+
+
+@media (max-width:1200px)
+{
+    .header-top .about a
+    {
+        font-size: 2.2rem;
+    }
+    .form-container
+    {
+        width: 30%;
+        margin-top: 20arem;
+    }
+
+    .form-container form input::placeholder
+    {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width:768px)
+{
+    html
+    {
+        font-size: 55.5%;
+    }
+    
+    .header-top .logo
+    {
+        margin-left: 1.5rem;
+    }
+    .header-top .logo img
+    {
+        width: 5rem;
+    }
+    .header-top .logo h1
+    {
+        font-size: 1.6rem;
+        margin-left: 1.2rem;
+    }
+    .header-top .about
+    {
+        margin-top: -5.5px;
+        margin-right: 1.5rem;
+    }
+   
+    .header-top .about a
+    {
+    
+     font-size: 1.3rem;
+     text-decoration: none;
+     color: #fff;
+     margin: 0 5px;
+     
+    }
+    
+    .login-panel
+    {
+        margin:5rem 2.5rem ;
+    }
+}
+
+
