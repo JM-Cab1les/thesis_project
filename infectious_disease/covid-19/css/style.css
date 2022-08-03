@@ -1,0 +1,81 @@
+*
+{
+    font-family: "Helvetica Neue", Helvetica, Arial , sans-serif;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+   
+
+}
+html
+ {
+    font-size: 62.5%;
+ }
+ .navbar .navbar-header-logo .navbar-brand img
+ {
+    margin-top: -.3rem;
+    width: 7rem;
+    margin-left: 1.2rem;
+ }
+ .navbar .navbar-header-logo .brand-text
+ {
+    font-size: 2rem;
+    color:#fff;
+ }
+ .dropdown-container
+ {
+    margin-right:8rem;
+ }
+ .dropdown-container button 
+ {
+    text-align: center;
+ }
+ .form-wrapper
+ {
+    margin:  auto;
+ }
+ input[type='text'],
+ input[type='email'],
+ input[type='number'],
+ input[type='date'],
+ input[type='file']
+ {
+    padding: .9rem;
+    font-size: 1.2rem;
+ }
+ .form-container
+ {
+    padding: .9rem !important;
+    
+    
+ }
+ .form-container option
+ {
+    font-size: 1.2rem;
+ }
+ input[type='checkbox']
+ {
+    padding: .5rem;
+ }
+ input::placeholder
+ {
+    font-size: 1.2rem;
+ }
+ .btn-grp
+ {
+    text-align: center;
+ }
+ 
+ .btn-grp .btn-submit
+ {
+    width: 50%;
+    font-size: 1.9rem;
+ }
+
+ @media (max-width:420px)
+ {
+    .dropdown-container
+    {
+       position: absolute;
+       right: 0;
+    }
+ }
